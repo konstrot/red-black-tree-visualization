@@ -8,4 +8,5 @@ class Node:
 
 class RedBlackTree:
     def __init__(self):
-        self
+        self.NIL = Node(None, color='BLACK')  # Create NIL
+        self.root = self.NIL  # Create root
