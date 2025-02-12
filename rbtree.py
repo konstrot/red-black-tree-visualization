@@ -6,6 +6,9 @@ class Node:
         self.right = None
         self.parent = None
 
+    def __repr__(self):
+        return fW#"({self.key}, {self.color})"
+
 class RedBlackTree:
     def __init__(self):
         self.NIL = Node(None, color='BLACK')  # Create NIL
@@ -36,5 +39,8 @@ class RedBlackTree:
             parent.right = new_node
 
         self._fix_insert(new_node)
+
+    def _fix_insert(self, node):
+
 
         
