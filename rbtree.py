@@ -41,6 +41,38 @@ class RedBlackTree:
         self._fix_insert(new_node)
 
     def _fix_insert(self, node):
+        
+        while node.parent and node.parent.color == "RED":
+            if node.parent == node.parent.parent.left:
+                uncle = node.parent.parent.right
+                if uncle.color == "RED":
+                    node.parent.color = "BLACK"
+                    uncle.color = "BLACK"
+                    node.parent.parent.color = "RED"
+                    node = node.parent.parent
+                else:
+                    if node == node.parent.right:
+                        node = node.parent
+                        self._rotate_left(node)
+                    node.parent.color = "BLACK"
+                    node.parent.parent.color = "RED"
+                    self._rotate_right(node.parent.parent)
+            else:
+                uncle = node.parent.parent.left
+                if uncle.color == "RED":
+                    node.parent.color = "BLACK"
+                    uncle.color = "BLACK"
+                    node.parent.parent.color = "RED"
+                    node = node.parent.parent
+                else:
+                    if node == node.parent.left:
+                        node = node.parent
+                        self._rotate_right(node)
+                    node.parent.color = "BLACK"
+                    node.parent.parent.color = "RED"
+                    self._rotate_left(node.parent.parent)
+
+        self.root.color = "BLACK"
 
 
         
