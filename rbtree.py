@@ -74,5 +74,37 @@ class RedBlackTree:
 
         self.root.color = "BLACK"
 
+    def _rotate_left(self, node):
+        
+        right_child = node.right
+        node.right = right_child.left
+        if right_child.left != self.NIL:
+            right_child.left.parent = node
+        right_child.parent = node.parent
+        if node.parent is None:
+            self.root = right_child
+        elif node == node.parent.left:
+            node.parent.left = right_child
+        else:
+            node.parent.right = right_child
+        right_child.left = node
+        node.parent = right_child
+
+    def _rotate_right(self, node):
+        
+        left_child = node.left
+        node.left = left_child.right
+        if left_child.right != self.NIL:
+            left_child.right.parent = node
+        left_child.parent = node.parent
+        if node.parent is None:
+            self.root = left_child
+        elif node == node.parent.right:
+            node.parent.right = left_child
+        else:
+            node.parent.left = left_child
+        left_child.right = node
+        node.parent = left_child
+
 
         
