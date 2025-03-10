@@ -1,0 +1,42 @@
+graph {
+	node [shape=circle]
+	20 [label=20 fillcolor=black fontcolor=white style=filled]
+	20 -- 10
+	10 [label=10 fillcolor=black fontcolor=white style=filled]
+	10 -- 5
+	5 [label=5 fillcolor=black fontcolor=white style=filled]
+	5 -- 3
+	3 [label=3 fillcolor=red fontcolor=white style=filled]
+	5 -- 8
+	8 [label=8 fillcolor=red fontcolor=white style=filled]
+	10 -- 15
+	15 [label=15 fillcolor=black fontcolor=white style=filled]
+	15 -- 12
+	12 [label=12 fillcolor=red fontcolor=white style=filled]
+	15 -- 17
+	17 [label=17 fillcolor=red fontcolor=white style=filled]
+	20 -- 35
+	35 [label=35 fillcolor=red fontcolor=white style=filled]
+	35 -- 30
+	30 [label=30 fillcolor=black fontcolor=white style=filled]
+	30 -- 25
+	25 [label=25 fillcolor=black fontcolor=white style=filled]
+	25 -- 22
+	22 [label=22 fillcolor=red fontcolor=white style=filled]
+	25 -- 27
+	27 [label=27 fillcolor=red fontcolor=white style=filled]
+	30 -- 32
+	32 [label=32 fillcolor=black fontcolor=white style=filled]
+	35 -- 38
+	38 [label=38 fillcolor=black fontcolor=white style=filled]
+	38 -- 37
+	37 [label=37 fillcolor=black fontcolor=white style=filled]
+	38 -- 40
+	40 [label=40 fillcolor=red fontcolor=white style=filled]
+	40 -- 39
+	39 [label=39 fillcolor=black fontcolor=white style=filled]
+	40 -- 42
+	42 [label=42 fillcolor=black fontcolor=white style=filled]
+	42 -- 44
+	44 [label=44 fillcolor=red fontcolor=white style=filled]
+}

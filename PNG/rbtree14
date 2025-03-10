@@ -1,0 +1,58 @@
+graph {
+	node [shape=circle]
+	35 [label=35 fillcolor=black fontcolor=white style=filled]
+	35 -- 20
+	20 [label=20 fillcolor=black fontcolor=white style=filled]
+	20 -- 10
+	10 [label=10 fillcolor=black fontcolor=white style=filled]
+	10 -- 5
+	5 [label=5 fillcolor=black fontcolor=white style=filled]
+	5 -- 3
+	3 [label=3 fillcolor=red fontcolor=white style=filled]
+	5 -- 8
+	8 [label=8 fillcolor=red fontcolor=white style=filled]
+	10 -- 15
+	15 [label=15 fillcolor=black fontcolor=white style=filled]
+	15 -- 12
+	12 [label=12 fillcolor=red fontcolor=white style=filled]
+	15 -- 17
+	17 [label=17 fillcolor=red fontcolor=white style=filled]
+	20 -- 30
+	30 [label=30 fillcolor=black fontcolor=white style=filled]
+	30 -- 25
+	25 [label=25 fillcolor=black fontcolor=white style=filled]
+	25 -- 22
+	22 [label=22 fillcolor=red fontcolor=white style=filled]
+	25 -- 27
+	27 [label=27 fillcolor=red fontcolor=white style=filled]
+	30 -- 32
+	32 [label=32 fillcolor=black fontcolor=white style=filled]
+	35 -- 40
+	40 [label=40 fillcolor=black fontcolor=white style=filled]
+	40 -- 38
+	38 [label=38 fillcolor=black fontcolor=white style=filled]
+	38 -- 37
+	37 [label=37 fillcolor=black fontcolor=white style=filled]
+	38 -- 39
+	39 [label=39 fillcolor=black fontcolor=white style=filled]
+	40 -- 48
+	48 [label=48 fillcolor=red fontcolor=white style=filled]
+	48 -- 44
+	44 [label=44 fillcolor=black fontcolor=white style=filled]
+	44 -- 42
+	42 [label=42 fillcolor=black fontcolor=white style=filled]
+	44 -- 46
+	46 [label=46 fillcolor=black fontcolor=white style=filled]
+	48 -- 50
+	50 [label=50 fillcolor=black fontcolor=white style=filled]
+	50 -- 49
+	49 [label=49 fillcolor=black fontcolor=white style=filled]
+	50 -- 52
+	52 [label=52 fillcolor=red fontcolor=white style=filled]
+	52 -- 51
+	51 [label=51 fillcolor=black fontcolor=white style=filled]
+	52 -- 53
+	53 [label=53 fillcolor=black fontcolor=white style=filled]
+	53 -- 54
+	54 [label=54 fillcolor=red fontcolor=white style=filled]
+}
