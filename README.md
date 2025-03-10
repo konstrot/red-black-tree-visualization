@@ -17,8 +17,6 @@ pip install graphviz
 
 You can download Graphviz from the official website: [https://graphviz.org/download/](https://graphviz.org/download/)
 
----
-
 ### **3️⃣ Run the script**
 
 You need to run the script from the `PNG` directory to ensure that PNG images and DOT notation files are created in this folder.
