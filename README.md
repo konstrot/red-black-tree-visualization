@@ -4,5 +4,5 @@ This project provides a **Red-Black Tree visualization** using **Graphviz** and 
 ## 🛠 Installation & Usage
 
 1️⃣ Clone the repository
-`git clone https://github.com/YOUR_USERNAME/rb-tree-visualization.git
-cd rb-tree-visualization`
+
+`git clone https://github.com/konstrot/red-black-tree-visualization.git`
