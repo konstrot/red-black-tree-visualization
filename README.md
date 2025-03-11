@@ -34,21 +34,15 @@ After execution, multiple PNG files may open automatically. You can close them a
 
 ## 📌 Example Output
 
-The script generates a visualization of a Red-Black Tree, where:
-
-🔴 **Red nodes** represent newly inserted nodes before balancing
-
-⚫ **Black nodes** maintain tree balance
+The script generates a visualization of a Red-Black Tree.
 
 Example output (auto-generated PNG file):
 
-> *(You can insert an example image here)*
+![](PNG/rbtree_logo.png)
 
 ---
 
 ## 📜 License
 
 This project is licensed under the **MIT License**.
-
----
 
